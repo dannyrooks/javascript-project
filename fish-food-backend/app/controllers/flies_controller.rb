@@ -1,6 +1,6 @@
 class FliesController < ApplicationController
     def index
         flies = Fly.all
-        render json: flies
+        render json: FlySerializer.new(flies)
     end
 end
