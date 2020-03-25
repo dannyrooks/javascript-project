@@ -14,5 +14,5 @@ Fly.create(name: "Blue Dun", description: "Dry fly", fishtype_id: 1)
 Fly.create(name: "Sculpin", description: "Streamer", fishtype_id: 1)
 
 
-trout = Fishtype.create(name: "Trout")
-bass = Fishtype.create(name: "Bass")
+fishtype1 = Fishtype.create(name: "Trout")
+fishtype2 = Fishtype.create(name: "Bass")
