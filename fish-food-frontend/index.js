@@ -1,6 +1,6 @@
 
 
-let flyAdapter = new flyAdapter("http://localhost/3000/flies")
+let flyAdapter = new fliesAdapter("http://localhost/3000/flies")
 flyAdapter.fetchFlies()
 
 

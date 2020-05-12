@@ -6,7 +6,9 @@ class FliesAdapter{
     fetchFlies() {
         fetch(this.baseURL)
         .then(res => res.json())
-        
+        .then(resObj => {
+             
+        })
         
     }
 }
